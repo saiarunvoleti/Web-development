@@ -1,0 +1,95 @@
+body
+{
+	background-color:#dbfdff;
+	font-size:16px;
+}
+
+header
+{
+	height:100px;
+	background-color:blue;
+	margin:20px;
+	border-radius:5px;
+	position:relative;
+}
+
+header img
+{
+	width:15%;
+	margin:20px;
+	height:60px;
+	float:left;
+	border-radius:10px;
+}
+
+header nav
+{
+	disaply:inline;
+	
+	position:absolute;
+	top:40%;
+	text-align:center;
+	width:100%;
+	line-height:20px;
+}
+
+header nav a
+{
+	text-align:center;
+	padding:10px;
+	text-decoration:none;
+	color:white;
+	font-size: 120%;
+}
+
+header nav a:hover
+{
+	background-color:white;
+	color:blue;
+	position:relative;
+	bottom:2px;
+	left:2px;
+	border-radius:5px;
+}
+
+#intro1
+{
+	text-align:center;
+	background:url(table-home.jpg);
+	background-size:cover;
+	padding-top:250px;
+	padding-bottom:30px;
+	overflow:auto;
+}
+
+/*#intro1 img
+{	
+	width:97%;
+	height:500px;
+	position:relative;
+	overflow:auto;
+
+}*/
+
+#intro2
+{
+	font-family:verdana;
+	/*position:absolute;
+	top:50%;
+	transform:translate(70%,-5%);*/
+	font-size:120%;
+}
+
+#intro2 h1
+{
+	font-size:140%;
+}
+
+#intro2 button
+{
+	background-color:darkblue;
+	padding:10px;
+	margin:10px;
+	color:white;
+	border-radius:10px;
+}
